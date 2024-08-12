@@ -52,7 +52,7 @@ h1 {
 
 .menu-section h2 {
     color: var(--marsala);
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     padding: 20px;
     cursor: pointer;
     position: relative;
@@ -62,12 +62,11 @@ h1 {
     content: '+';
     position: absolute;
     right: 20px;
-    transform: rotate(180deg);
     transition: transform 0.3s ease;
 }
 
 .menu-section.active h2::after {
-    transform: rotate(90deg);
+    transform: rotate(45deg);
 }
 
 .menu-content {
