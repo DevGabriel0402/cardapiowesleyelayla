@@ -20,7 +20,7 @@ body {
 .container {
     max-width: 100%;
     padding: 20px;
-    min-heigth: 80vh;
+    min-height: 80vh;
 }
 
 h1 {
