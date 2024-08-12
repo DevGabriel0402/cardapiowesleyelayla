@@ -59,7 +59,7 @@ h1 {
 }
 
 .menu-section h2::after {
-    content: '▶';
+    content: '+';
     position: absolute;
     right: 20px;
     transform: rotate(180deg);
