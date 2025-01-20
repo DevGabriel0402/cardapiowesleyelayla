@@ -59,3 +59,8 @@ preencherMenu();
           section.classList.add('animate');
       }, index * 200); // 200ms de delay entre cada seção
   });
+
+document.getElementById("creator").onclick = () => {
+  const url = "https://www.instagram.com/eu.gabrielvieira/";
+  window.open(url, "_blank")
+}
